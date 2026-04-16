@@ -16,6 +16,29 @@ published: true
 > License: CC-BY-4.0
 ---
 
+## 概要 (Japanese Summary)
+
+本論文では Rei-AIOS の離散 Ollivier-Ricci flow を任意の重み付きグラフに適用し、未解決数学問題を 3 カテゴリ **S (stable) / M (moderate) / E (explosive)** に分類する経験的タクソノミーを提案する。
+
+代表例として Goldbach 分割グラフは S (per-edge singularity ratio = 0.025), Collatz 軌道 n=27 は M (0.370), Andrica 素数間隔グラフは E (1.251) と明確に分離した。
+
+さらに **10⁹ scale (5 億奇数)** の完全 Collatz funnel census を実施し:
+- primary-funnel share が **30 倍崩壊** (0.2138% → 0.0069%)
+- 上位 200 ピークに **Wieferich 隣接が皆無**
+- near-Wall-Sun-Sun (素数 7² 因子) markers が persistent
+
+を確認した。
+
+**重要**: いずれの未解決予想も解決されたとは主張しない。3 カテゴリ分類は peer review 対象の hypothesis として提示する。Hamilton の Ricci flow を組合せ的グラフ上で discrete 化した実装は pure TypeScript (外部依存ゼロ) で行われている。
+
+---
+
+## English Body
+
+本文は英語のオリジナル原稿です。数式・専門用語の正確性を保つため翻訳していません。
+
+---
+
 **Author**: 藤本 伸樹 (Nobuki Fujimoto, [fc0web](https://github.com/fc0web))
 **Contact**: fc2webb@gmail.com / [note.com/nifty_godwit2635](https://note.com/nifty_godwit2635)
 **Date**: 2026-04-17

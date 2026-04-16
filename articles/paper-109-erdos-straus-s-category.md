@@ -16,6 +16,30 @@ published: true
 > License: CC-BY-4.0
 ---
 
+## 概要 (Japanese Summary)
+
+本論文では **Paper 108 の Ricci flow 3 カテゴリ分類** を Erdős-Straus 予想 `4/n = 1/a + 1/b + 1/c` (1948) に適用する。
+
+各 n に対して a ≤ 60 制約下で分割グラフを構築し、エッジ 3 個以上で分類可能な n ∈ [2, 1000] を解析した結果:
+
+- **84.3% が Category S (stable)**
+- 14.5% が Category M
+- わずか **0.6% が Category E**
+
+と判定された。これは Andrica グラフ (100% E) や Collatz 軌道 n=27 (M, per-edge 0.37) とは対照的な構造である。
+
+さらに **藤本無限代数 (FIA, STEP 843, Lean 4 zero-sorry 形式化済 93 axioms)** が提供する閉じた 8 値演算構造 (D-FUMT₈ 上の {TRUE, FALSE, BOTH, NEITHER, INFINITY, ZERO, FLOWING, SELF}) と組み合わせることで、partition equation の退化極限における **symbolic reasoning という新しい攻撃ベクトル** が開ける可能性を示した。
+
+**重要**: Erdős-Straus が解決されたとは主張しない。Category-S 配置は構造的シグナルであり、∀ n ≥ 2 での予想閉鎖は今後の課題である。
+
+---
+
+## English Body
+
+本文は英語のオリジナル原稿です。数式・専門用語の正確性を保つため翻訳していません。
+
+---
+
 **Author**: 藤本 伸樹 (Nobuki Fujimoto, [fc0web](https://github.com/fc0web))
 **Contact**: fc2webb@gmail.com / [note.com/nifty_godwit2635](https://note.com/nifty_godwit2635)
 **ORCID**: 0009-0004-6019-9258
